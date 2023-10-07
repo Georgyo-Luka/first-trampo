@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
 
 
@@ -19,28 +18,28 @@
         <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="#Experiencia">Experiencia</a></li>
-          <li><a href="#Projetos">Projetos</a></li>
-          <li><a href="#Contatos">Contatos</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
         </ul>
       </div>
       <div class="mobile">
-        <button onclick="abrirmenu" class="menu-icone" ><img src="Medias/abrir.svg" alt=""></button>
+        <button class="menu-icone" ><img src="Medias/abrir.svg" alt=""></button>
       </div>
     </nav>
 
     
       <div class="menu-escondido">
-        <ul id="menu-mobile">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="#Experiencia">Experiencia</a></li>
-          <li><a href="#Projetos">Projetos</a></li>
-          <li><a href="#Contatos">Contatos</a></li>
+        <ul class="menu-mobile">
+          <li class="lista"><a href="index.html">Inicio</a></li>
+          <li class="lista"><a href="contatos.html">Contatos</a></li>
+          <li class="lista"><a href="sobre.html">Sobre</a></li>
+          <li class="lista"><a href="experiencia.html">Experiencia</a></li>
+          <li class="lista"><a href="projetos.html">Projetos</a></li>
         </ul>
       </div>
   </header>
-    <section id="perfil">
+    <div id="perfil">
       <div class="foto-espaco">
         <img id="perfil-ft" src="Medias/perfil.png" alt="gg foto" />
       </div>
@@ -70,7 +69,7 @@
           />
         </div>
       </div>
-    </section>
+    </div>
     <section id="Sobre-mim">
       <p class="section__text__p1">Saiba mais</p>
       <h1 class="title">Sobre o Georgyo</h1>
@@ -94,14 +93,16 @@
               </table>
               </div>
              </div>
-          <div class="text-container">
-            <p>
-              No momento apenas estudando, trabalhando e tentando sobreviver na cidade Grande 
-
-            </p>
+             <div class="text-container">
+              <p>
+                No momento apenas estudando, trabalhando e tentando sobreviver na cidade Grande 
+  
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+    </section> 
+          
       <script src="script.js"></script>
   </body>
 </html>
