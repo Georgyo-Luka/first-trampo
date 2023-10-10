@@ -54,11 +54,39 @@
  <img src="Medias/zap.png" alt="linkedin Georgyo"
   onclick="location.href='https://api.whatsapp.com/send?phone=5528999277231'"
     class="icon"
-    /> <img
-</div>
-
-</div>
-</div>
+    /></div>
+    <form class="formulario" action="">
+      <div class="input input-spacing">
+          <label for="name">Nome:</label>
+          <input class="input-text" type="text" name="name" placeholder="Digite seu nome aqui" required>
+      </div>
+      <div class="input input-spacing">
+          <label for="mail">Email:</label>
+          <input class="input-text" type="email" name="mail" placeholder="Digite seu email aqui" required>
+      </div>
+      <div class="input input-spacing">
+          <label for="fone">Telefone:</label>
+          <input class="input-text" type="tel" name="fone" placeholder="Digite seu telefone aqui" required>
+      </div>
+     
+      <div class="input-spacing">
+          <h1 class="form">Página que deseja contratar:</h1>
+          <input class="input-checkbox" type="checkbox" name="estatica" id="">
+          <label for="estatica">Página Estática</label>
+          <br>
+          <input class="input-checkbox" type="checkbox" name="dinamica" id="">
+          <label for="dinamica">Página Dinâmica</label>
+          <br>
+          <input class="input-checkbox" type="checkbox" name="avancada" id="">
+          <label for="avancada">Página Avançada</label>
+      </div>
+      <div class="formdiv">
+          <label for="descricao">Descreva o motivo para entrar em contato:</label><br>
+          <textarea class="motivo" name="descricao" id="" cols="30" rows="5"
+              placeholder="..."></textarea>
+      </div>
+      <input class="submit" type="submit" value="Enviar">
+  </form>
     <script src="script.js"></script>
 
     </body>
